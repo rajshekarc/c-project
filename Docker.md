@@ -303,7 +303,8 @@ many to many
 total number of container ports range.
 
 # Docker network types
-1. Bridge
+### 1. Bridge
+
 - This is a private internal network created by docker on the host machine
 by name docker0
 - This is the default network type for all the container which are created
@@ -320,13 +321,13 @@ docker network create --driver bridge my_bride
 - In custom bridge containers can communicate with eachother with container
 name and also with IP address.
 
-#### Assignment:
+    # Assignment:
+        1) docker export vs save vs commit
+        2) How to have communication between containers which are in two different bridge network.
+        3) Docker Architecture
 
-1) docker export vs save vs commit
-2) How to have communication between containers which are in two different bridge network.
-3) Docker Architecture
+### 2. Host
 
-2. Host
 - This driver removes the network isolation between docker and the host.
 - The containers are directly connected to host machine network without
 extra layer of any docker network.
@@ -334,7 +335,8 @@ extra layer of any docker network.
 - All the network interfaces which are there in host machine are
 accessable by this container.
 
-3. None
+### 3. None
+
 - Containers are not attached to any network by docker.
 - All the required network configurations need to be done
 manually.
