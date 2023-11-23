@@ -122,10 +122,8 @@ docker exec -it <container_id> <command>
 
 docker attach <container_id>
 
-## Assignment: work with docker commands
-
-Try to create a jenkins container (jenkins/jenkins:lts)
-
+        # Assignment: work with docker commands
+        Try to create a jenkins container (jenkins/jenkins:lts)
 
 # Custom Docker Image / Dockerfile
 - Dockerfile is used to create custom image on top stock image or any other image as base image.
