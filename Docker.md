@@ -90,11 +90,11 @@ docekr rm <conatainer_id>
 
 #### To delete a running container
 
-##### Forceful deletion
+##### - Forceful deletion
 
 docker rm -f <conatainer_id>
 
-##### Graceful deletion
+##### - Graceful deletion
 
 docker rm $(docker stop <conatainer_id>)
 
