@@ -40,7 +40,7 @@ This is the machine in which docker is running
 List images in a machine
 docker images
 
-# To pull / download docker image
+#### To pull / download docker image
 docker pull <image_name>:<tag_name>
 
     # Note: 
