@@ -21,16 +21,16 @@ If I want install Docker on windows then I need to run a Linux VM in windows on 
 - VM is way of running virtual OS on top a host OS using a special software called Hyperviser.
 - VM directly shares the harware of the host OS.
 
-VM 					vs 			Containerisation
-1. Virtualization at hardware level  				1. Virtualization at OS level
-2. Heavyweight - consume more host 			2. Lightweight
+                VM 				            	vs 			Containerisation
+1. Virtualization at hardware level  		  		1. Virtualization at OS level
+2. Heavyweight - consume more host 		      	2. Lightweight
 resources
-3. VM useses hypervisor 					3. containerisation tool is used
-4. limited performace - Boot up time        		4. Native performace - usualy boot
-is more which is in minutes 			   		fast in seconds.
-5. Cosumes more storage 					5. Shres OS storage means only uses
+3. VM useses hypervisor 					            3. containerisation tool is used
+4. limited performace - Boot up time        	4. Native performace - usualy boot
+is more which is in minutes 			   		      fast in seconds.
+5. Cosumes more storage 					            5. Shres OS storage means only uses
 required storage.
-6. Supports all OS 						6. Supports on Linux
+6. Supports all OS 						                6. Supports on Linux
 
 # host machine
 This is the machine in which docker is running
