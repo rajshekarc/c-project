@@ -47,6 +47,7 @@ docker pull <image_name>:<tag_name>
     if we wont specify tag the by default latest will be considered.
 
 ### To delete docker image
+
 docker rmi <image_name>:<tag_name>
     (OR)
 docker rmi <image_id>
