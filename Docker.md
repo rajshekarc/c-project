@@ -172,10 +172,9 @@ higest priority and the command of CMD will become as argumetns to ENTRYPOINT
 - ENTRYPOINT can't be overridden at the runtime but the runtime command
 will become parameters to ENTRYPOINT command.
 
-### Note: Q. Can we override ENTRYPOINT
-
-Yes, after docker 1.6 version docker has given option to over
-Entrypoint command at the runtime using --entrypoint
+    # Note: Q. Can we override ENTRYPOINT
+    Yes, after docker 1.6 version docker has given option to over
+    Entrypoint command at the runtime using --entrypoint
 
 ### ENV
 - This instruction is used to set the environment variable inside the container.
