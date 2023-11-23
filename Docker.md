@@ -43,8 +43,8 @@ docker images
 # To pull / download docker image
 docker pull <image_name>:<tag_name>
 
-# Note: 
-if we wont specify tag the by default latest will be considered.
+    # Note: 
+    if we wont specify tag the by default latest will be considered.
 
 To delete docker image
 docker rmi <image_name>:<tag_name>
